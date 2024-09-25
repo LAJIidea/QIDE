@@ -1,0 +1,1 @@
+{"version":3,"file":"userinfo-service.d.ts","sourceRoot":"","sources":["../../../src/node/service/userinfo-service.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,sBAAsB,EAAE,MAAM,oBAAoB,CAAC;AAK5D,qBACa,0BAA2B,YAAW,sBAAsB;IAErE,WAAW,IAAI,OAAO,CAAC,MAAM,CAAC;CAOjC"}

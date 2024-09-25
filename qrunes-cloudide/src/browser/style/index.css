@@ -1,0 +1,229 @@
+#widget-container h2 {
+    color: var(--theia-ui-font-color1);
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.theia-icon {
+    background-image: url('../icons/icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 4px;
+    weight: 20px;
+    height: 20px;
+}
+
+#widgetBox {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+#widgetBoxImg {
+    background: url("../icons/Q.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-right: 12px;
+    margin-top: 5px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+#widgetBoxContent {
+    z-index: 100;
+    margin-top: 30px;
+    width: 215px;
+    height: 80px;
+    padding-left: 25px;
+    margin-right: 36px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--theia-notifications-background);
+    box-shadow: 0px 0px 4px 0px var(--theia-widget-shadow);
+    border: 1px solid var(--theia-notificationToast-border);
+}
+
+#widgetBoxContent a {
+    color: var(--theia-titleBar-activeForeground);
+    text-decoration: none;
+}
+
+#originq-about-logo {
+    content: url("../icons/icon.png");
+    margin-left: 140px;
+    height: 80px;
+    weight: 80px
+}
+
+html,
+body {
+    font-family: var(--theia-ui-font-family);
+}
+
+.col {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-grid {
+    display: flex;
+}
+
+.gs-action-container {
+    line-height: 20px;
+    color: var(--theia-ui-font-color1);
+}
+
+.gs-container {
+    padding: 20px;
+}
+
+.welcome-a {
+    color: #007ACC;
+}
+
+.gs-header h1 {
+    color: var(--theia-ui-font-color1);
+    flex: 1;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.gs-hr {
+    background-color: var(--theia-border-color1);
+    height: 1px;
+    border: 0;
+    margin: 0px;
+}
+
+.gs-section a {
+    border: none;
+    color: var(--theia-accent-color1);
+    font-weight: 500;
+    outline: 0;
+    text-decoration: none;
+}
+
+.gs-section a:hover {
+    text-decoration: underline;
+}
+
+.gs-section-header {
+    color: var(--theia-ui-font-color1);
+    font-size: var(--theia-ui-font-size2);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.gs-section-header i {
+    padding-right: 5px;
+}
+
+.gs-sub-header {
+    color: var(--theia-ui-font-color2);
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+#bold-p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.prompt-mt table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.prompt-mt table caption {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.prompt-mt th,
+td {
+    border: 1px solid #999;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.prompt-mt table thead tr {
+    background-color: #008c8c;
+    color: #fff;
+}
+
+.prompt-mt table tbody tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+.prompt-mt table tbody tr:hover {
+    background-color: #ccc;
+}
+
+.prompt-mt table tbody tr td:first-child {
+    color: #f40;
+}
+
+.prompt-mt table tfoot tr td {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.btn-content {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #007FFF;
+}
+
+
+.btn-content span {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #007FFF;
+    cursor: pointer;
+    margin-right: 20px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.cancel {
+    color: gray;
+    border: 1px solid gray !important;
+}
+
+
+.btn-content span:hover {
+    background: #111111;
+}
+
+.content {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 4px;
+    opacity: 1;
+    border: 1px solid #444444;
+    margin: 20px 0;
+    resize: none;
+}
+
+.content-area {
+    height: 80px;
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"monitor-contribution.d.ts","sourceRoot":"","sources":["../../../src/browser/monitor/monitor-contribution.ts"],"names":[],"mappings":"AAAA,OAAO,EAAW,eAAe,EAAE,MAAM,wBAAwB,CAAC;AAClE,OAAO,EAAE,mBAAmB,EAAE,MAAM,aAAa,CAAC;AASlD,qBACa,mBAAoB,YAAW,mBAAmB;IAGpD,IAAI;IAIJ,gBAAgB,CAAC,QAAQ,EAAE,eAAe;IAQ1C,QAAQ,IAAI,IAAI;CAI1B"}
